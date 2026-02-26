@@ -70,19 +70,17 @@ in_x = tk.Entry()
 in_x.pack()
 x_in = in_x.get()
 
-if x_in == "hi":
+
+
+
+
+def destroy():
     root.destroy()
-else:
-    print()
 
 
 
 
-
-
-
-
-button_min = tk.Button(root, text="Minimize Window", command=min_win)
+button_min = tk.Button(root, text="Close - Test", command=destroy)
 button_min.pack(pady=100)
 
 
@@ -116,3 +114,4 @@ run()
 
 
  
+
